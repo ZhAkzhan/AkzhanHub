@@ -1,0 +1,37 @@
+@import url('https://fonts.googleapis.com/css?family=VT323');
+
+body {
+    background-color: #222222;
+    background: repeating-linear-gradient(
+        45deg,
+        #2b2b2b 0%,
+        #2b2b2b 10%,
+        #222222 0%,
+        #222222 50%
+      )
+      0 / 15px 15px;
+  }
+
+.glow {
+    font-family: monospace;
+    font-size: 80px;
+    color: #fff;
+    text-align: left;
+    -webkit-animation: glow 1s ease-in-out infinite alternate;
+    -moz-animation: glow 1s ease-in-out infinite alternate;
+    animation: glow 1s ease-in-out infinite alternate;
+    text-shadow: 0px 0px 35px green, 0px 0px 35px green, 0px 0px 35px skyblue;
+  }
+
+h2 {
+    font-family: monospace;
+    font-size: 30px;
+    color: #fff;
+    text-align: left;
+    -webkit-animation: glow 1s ease-in-out infinite alternate;
+    -moz-animation: glow 1s ease-in-out infinite alternate;
+    animation: glow 1s ease-in-out infinite alternate;
+    text-shadow: 0px 0px 35px green, 0px 0px 35px green, 0px 0px 35px skyblue;
+}
+  
+  
